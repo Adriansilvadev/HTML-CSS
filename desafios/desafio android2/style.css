@@ -1,0 +1,129 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: android;
+    src: url(fontes/idroid.otf);
+}
+@font-face {
+    font-family:bison;
+    src: url(fontes/bisonbold.ttf);
+}
+body {
+   background-color: #84E1AD; 
+     radial-gradient(to top, #227A49, #479168, #91e0b4);
+   text-align: justify;
+   margin: 0%;
+  
+}
+header {
+   font-family: Bahnschrift Condensed;
+   background-image: linear-gradient(#91e0b4,#10ab56, #106235 );
+   color: white;
+   text-align: center;
+   font-weight:normal
+}
+header > h1 {
+    font-family: bison;
+    font-weight: normal;
+}
+header > p {
+    text-align: center;
+}
+header> nav  {
+    text-align: left;
+    padding: 15px;
+    font-size: 20px;
+    border: 20px;  
+}
+header >nav >a {
+    text-decoration: none;
+  
+    font-weight: 350;
+    color: white;
+    padding: 7px;
+}
+a:hover{
+    background-color: #54c18398;
+}
+.idroid {
+    font-family:'android';
+    font-weight:normal ;
+    color: green;
+     
+}
+main {
+    background-color: white;
+    margin-left: 150px;
+    margin-right: 150px;
+    font-size: 10px;
+    padding: 20px;
+    border-radius: 0px 0px 5px 5px;
+    box-shadow: 2px 2px 2px 3px rgba(0, 0, 0, 0.186);
+  
+}
+ 
+p {
+    text-indent: 20px;
+}
+h2 {
+    background-image: linear-gradient(to right,#84e1aca0,#a7e4c26d,#98e5b97c, #dcefe424);
+    margin: 10px;
+
+}
+article {
+    background-color: #106235cf;
+    padding: 20px 15px;
+  
+}
+
+h3 {
+    height: 20px;
+    background-color: #10ab56c4;
+    border-radius: 5px 5px 0px 0px;
+    text-indent: 5px;
+    padding-top: 5px;
+    color: white;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    
+   
+  
+}
+aside {
+    background-color: #91e1b489;
+    text-align: justify;
+    padding: 10px;
+    font-size: 0,7em;
+    font-weight: 800;
+    border-radius: 0px 0px 5px 5px;
+    box-shadow: 1px 3px 3px rgba(0, 0, 0, 0.214);
+
+}
+aside > div > ul {
+    text-decoration: underline;
+}
+
+.coluna {
+    float: left;
+    width: 50%;
+ 
+    
+}
+span {
+    color: #2f7a50;
+  font-weight: bolder;
+}
+.span2 {
+    color: white;
+}
+a {
+    text-decoration: none;
+}
+footer {
+    padding-top: 8px;
+    background-color: #106235;
+    color: rgb(176, 220, 176);
+    text-align: center;
+    font-size: smaller;
+    margin-top: 10px;
+}

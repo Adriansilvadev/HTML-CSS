@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            background-color: bisque;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        header {
+            height: 100px;
+            width: 600px;
+            background-color: rgb(180, 163, 138);
+            margin: 5px;
+            text-indent: 10px;
+         
+           
+        }
+        header >nav { 
+            background-color: rgb(92, 82, 70);
+            padding: 5px;
+            margin: 10px;
+            text-indent: 1px;
+        }
+        nav >a {
+           color: white;
+           text-decoration: none;
+           margin-right: 30px;     
+        }
+       nav >a:hover {
+            color: green;
+            text-decoration: underline;
+        }
+       main {
+            background-color: beige;
+            padding:5px;
+        }
+        main > article  {
+            background-color: bisque;
+          
+        }
+        
+        
+                
+        
+        aside{
+            background-color: rgba(94, 92, 92, 0.597);
+            margin: 10px;
+        }
+        footer {
+            background-color: rgb(20, 18, 18);
+            color: white;
+            text-indent: 10px;
+            margin: 10px;
+            border: 10px;
+
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p><a href="#">Esportes</a> <a href="#">Turismo</a> <a href="#">Tecnologia</a></p>
+        </section>
+        <article id="noticias">
+            <h2> Noticias sobre o Brasil</h2>
+        
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse asperiores animi natus dolorem, aut vitae id inventore beatae ipsa similique reprehenderit quidem veniam laborum cum eius, libero adipisci dicta modi.</p>
+        <aside>
+            <p>Artigo escrito por José Silva</p>
+        </aside>
+    </article>
+       
+    </main>
+    <footer>
+        <p>Desenvolvido pelo CursoemVideo</p>
+    </footer>
+    
+</body>
+</html>

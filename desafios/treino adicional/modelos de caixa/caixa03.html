@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+       body {background-color: rgb(127, 211, 214);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    header {
+        
+        height: 120px;
+        width: auto;
+        padding: 2px;
+        background-color: rgb(134, 223, 226);
+        text-indent: 10px;
+        margin: 2px;
+        border: 5px; 
+        border-style: groove;
+        border-color: rgb(14, 61, 47);  
+        border-radius: 10px;
+        box-shadow: 1px 2px 3px grey;
+        text-shadow: 1px 3px 4px grey;
+        
+    }
+    
+    nav {
+        background-color:  rgb(40, 69, 70);
+        border-radius: 3px;
+        box-shadow:  2px 1px 5px 1px rgba(0, 0, 0, 0.452);;
+        margin-right: 10px;
+        margin-left: 5px;
+    }
+    nav > a {
+       text-decoration: none;
+       color: white;
+       margin: 20px;
+    }
+    nav >a:hover {
+        text-decoration: underline;
+        color: greenyellow;
+    }
+    nav >a:active {
+        color: blueviolet;
+    }
+    main {
+       
+    }
+    
+    #assuntos > p > a {
+       text-decoration: none;
+       color: black;
+       
+    }
+    #assuntos > p > a:hover {
+        text-decoration: underline;
+        
+    }
+    #assuntos > p > a:active {
+        color: blueviolet;
+    } 
+    #noticias {
+        background-color: rgb(67, 170, 172);
+        padding: 10px;
+        border-radius: 5px;
+        box-shadow: 2px 3px 8px rgb(8 35 35 / 56%);  
+    }
+    #noticias > article >h2 { 
+        text-align:   center;
+        text-shadow: 1px 2px 6px rgba(0, 0, 0, 0.367)
+        
+    }
+    aside {
+        color: white;
+        background-color: rgb(41, 84, 69);
+        padding:0,8px;
+        border-radius: 2px;
+        }
+    footer {
+        background-color: rgb(7, 84, 7);
+        color: white;
+        padding: 0,7em;
+        text-align: center;
+        font-weight: 400;
+        border-radius: 4px;
+    }
+    #bola {
+        height: 100px;
+        width: 100px;
+        margin: 10px;
+        background-color: rgb(20, 101, 65);
+        border-radius: 50%;
+    }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p><a href="#">Esportes</a> 
+                <a href="#">Turismo</a> 
+                <a href="#">Tecnologia</a>
+            </p>
+        </section>
+        <section id="noticias">
+            <article>
+            <h2>Noticias sobre o Brasil</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore adipisci animi hic, quam fuga facere dolorum veniam architecto impedit totam voluptatem beatae! Asperiores fugit id, quod facilis ex officiis unde.</p>
+            <aside>
+                <p>Artigo escrito por José Silva</p>
+            </aside>
+        </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido pelo CursoemVideo</p>
+    </footer>
+    <div id="bola"> </div>
+</body>
+</html>

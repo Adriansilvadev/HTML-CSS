@@ -1,0 +1,40 @@
+#74DD42
+
+#00AF4A
+
+#00836E
+
+#FD0110
+
+gradiente
+
+#00836E
+
+#00AF4A
+
+#76DF44
+relacionadas
+
+
+#8BA17B
+#A7C4AE
+#B8DDE6
+#9B7687
+#3A6341
+
+#55d76b
+
+
+Fontes 
+Nature {Título}
+Pacifico {subtópicos}
+Montserrat {texto}
+Playfair Display {Texto adicional}
+
+
+gradientes sugeridos pelo GPT
+ #89B0E8,#F8C5D1, #AADB9F 3 cores
+
+ #89B0E8, #F8C5D1, #AADB9F, #FED46F,  #D8A8E8, #A6806C  5 cores
+
+#50816E,#89B0E8,#FED46F 3cores

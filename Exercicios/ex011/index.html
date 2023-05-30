@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em HTML5</title>
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmnente aumente e diminua o tamanho da janela do seu navegador</p>
+    <picture>
+        <source media="(Max-width:750px )" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(Max-width:1050px )" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="Imagem Flexivel">
+    </picture>
+    <h1>reproduzindo Áudio</h1>
+    <p>Vamos aprender a reproduzir audios em HTML5</p>
+    <audio src="midia/guanacast-33.mp3"Controls ></audio> <br>
+    <audio src="midia/happy-mistake.mp3"Controls loop></audio><!--!!ATENÇÃO!!loop ativado sign. reprodução infinita-->
+    <p>Também podemos adicionar audios usando os parametros que aparecem no código desta página </p>
+
+    <audio preload="metadata"Controls loop> <!--!!ATENÇÃO!! loop ativado sign. reprodução infinita-->
+        <!-- Abaixo foram alistados as três opçõs de formatp de arquivo, embora de fato não exista no diretório. Isso foi feito apenas para exemplificar as possibilidades. Isso permite que o navegador escolha o formato de arquivo que for mais compatível. Atente-se a ordem, colocando os arquivos menores como prioridade. Isso reduz o uso de dados no site.-->
+        <source src="midia/happy-mistake.mp3" type="audio/mpeg">
+        <source src="midia/happy-mistake.ogg" type="audio/ogg">
+        <source src="midia/happy-mistake.wav" type="audio/wav"> 
+        <p>Infelizmente seu navegador não consegue reproduzir áudio. Clique <a href="midia/happy-mistake.mp3">aqui</a> para baixar o arquivo MP3</p>
+    </audio>
+                
+   
+
+</body>
+</html>
