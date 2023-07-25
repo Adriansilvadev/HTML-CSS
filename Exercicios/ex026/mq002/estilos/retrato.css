@@ -1,5 +1,7 @@
 @charset "UTF-8";
 /* Configiração para dispositivos em pé (portrait)*/
+
 body {
-    background-color: blueviolet;
+   background-image: url(../imagens/cev-portrait.jpg);
+   background-position: center bottom;
 }
