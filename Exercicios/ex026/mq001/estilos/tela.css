@@ -4,6 +4,36 @@
     margin: 0px;
     padding: 0px;
 }
+
 html {
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.em;
+    line-height: 1.5em;  
+}
+
+header {
+    background-color: lightgray;
+}
+ header > h1 {
+    text-align: center;
+}
+
+menu  li {
+    background-color: rgb(66, 60, 60);
+    display: inline-block;
+    padding: 7px;
+    border-radius: 7px;
+    color: white;
+}
+
+menu {
+    background-color: gray;    
+}
+
+article {
+    display: block;
+    width: 600px;
+    margin:auto;
+}
+body  h2 { text-align: center;
 }

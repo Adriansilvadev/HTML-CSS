@@ -14,6 +14,10 @@ menu {
     display: none;
 }
 
+article{
+    width: 100%;
+}
+
 article::after{
-    content: 'Esse artigo foi impresso atravé do site WWW.cursoemvideo.com';
+    content: 'Esse artigo foi impresso atravé do site www.cursoemvideo.com'
 }
