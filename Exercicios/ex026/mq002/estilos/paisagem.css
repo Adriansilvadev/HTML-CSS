@@ -1,2 +1,5 @@
 @charset "UTF-8";
 /* Configiração para dispositivos deitado (landscape)*/
+body {
+    background-color: aqua;
+}
