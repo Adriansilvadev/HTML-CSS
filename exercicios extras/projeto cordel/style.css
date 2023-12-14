@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body , html {
+    min-height: 100vh;
+    background-color: rgba(148, 235, 212, 0.595);
+}
+header {
+    background-color: rgba(58, 100, 225, 0.637);
+    padding: 10px 20px ;
+    text-align: center;
+    color: white ;
+    text-shadow: 1px -1px 2px black;
+    tex
+}
+
+header > h1 {
+   margin-bottom: 20px;
+   margin-top:20px;
+   font-size:3em;
+   font: optional;
+}
+
+section {
+    padding-top: 10px;
+    padding-left: 20px;
+    line-height: 1.6em;
+}
+
+.normal {
+    text-align: left;
+    background-color: azure;
+}
+
+.imagem {
+    background-color: rgba(73, 107, 192, 0.997);
+    color: rgb(0, 11, 11);
+    width: 50vh;
+}
+
+section#01 {
+    background-image: url(imagens/pexels-pixabay-248747.jpg)
+}

@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Registro de evento</title>
+    
+</head>
+<body>
+    <h1>Registro de Eventos</h1>
+    
+<form action="cadastro.php" method="post" autocomplete="on">
+
+    <fieldset>
+        <legend>Dados Pessoais</legend>
+        <p>
+            <label for="inome">Nome:</label>  <input type="text" name="nome" id="inome" placeholder="Nome" >
+        
+            <label for="isobrenome">Sobrenome: </label><input type="text" name="isobrenome" id="isobrenome" placeholder="Ultimo nome">
+        </p>
+            <p>
+               Foto do perfil: <input type="file" name="foto" id="ifoto">
+            </p>
+      
+        <p>
+            <fieldset>
+                <legend>Sexo</legend> 
+                <input type="radio" name="sexo" id="imasc"><label for="imasc"> Masculino</label>
+                <input type="radio" name="sexo" id="ifem"><label for="ifem">Feminino</label>
+            </fieldset>
+        </p>
+
+        <p>
+           <label for="iprof">Profissão:</label> <input type="text" name="profissao" id="iprof" list="lstprof">
+           <datalist id="lstprof">
+            <option value="ADM">Administrador</option>
+            <option value="ADV">Advogado</option>
+            <option value="AGR">Agricultor</option>
+            <option value="ART">Artesão</option>
+            <option value="BNC">Bancário</option>
+            <option value="BAR">Barbeiro</option>
+            <option value="CAB">Cabeleireiro</option>
+            <option value="CAN">Cantor</option>
+            <option value="DRM">Dermatologista</option>
+            <option value="DPL">Diplomata</option>
+           </datalist>
+        </p>
+
+        <p>
+            <fieldset>
+                <legend>Esportes favoritos</legend>
+                <input type="checkbox" name="basquete" id="ibasquete"><label for="ibasquete">Basquete</label> <br>
+                <input type="checkbox" name="futebol" id="ifutebol" checked><label for="ifutebol">Futebol</label> <br>
+                <input type="checkbox" name="handbol" id="ihandbol"><label for="ihandbol">Handbol</label> <br>
+                <input type="checkbox" name="natacao" id="inatacao"><label for="inatacao">Natação</label> <br>
+                <input type="checkbox" name="tenis" id="itenis"><label for="itenis">Tênis</label> <br>
+                <input type="checkbox" name="volei" id="ivolei"><label for="ivolei">Volei</label> <br>
+            </fieldset>
+            
+        </p>
+        <p>
+            <label for="iemail">E-mail:</label> <input type="email" name="email" id="iemail" size="20" placeholder="Exemplo@email.com" autocomplete="email">
+        </p>
+        <p>
+            <label for="itel">Telefone: </label><input type="tel" name="tel" id="itel" aria-setsize="10" placeholder="(xx) xxxxx-xxxx">
+        </p>
+        
+       
+    </fieldset> <br>
+
+    <fieldset>
+        <legend>Informações de Login</legend>
+        <p>
+            <label for="iusuario">Usuário</label>: <input type="text" name="usuario" id="iusuario" required autocomplete="username">
+        </p>
+        <p>
+            <label for="isenha">Senha:</label> <input type="password" name="senha" id="isenha" required minlength="6" maxlength="12" autocomplete="current-password">
+        </p>
+    </fieldset>
+
+    <p>
+        <label for="imedia">Média:</label> <input type="number" name="media" id="imedia" min="0" max="10" step="0.1" value="5.0" required>
+    </p>
+
+    <p>
+        <label for="imes">Periodo Letivo:</label> <input type="month" name="mes" id="imes">
+    </p>
+
+    <p>
+        Dia e Horário: <input type="datetime-local" name="" id="">
+    <p>
+        <p>Nível de Satisafação: <input type="range" name="nivel" id="inivel" min="1" max="10" value="5"></p>
+
+        <fieldset>
+            <legend>Selecione sua cor preferida</legend>
+
+            <p>
+                Cor:<input type="color" name="cor" id="icor" value="#00ff00">
+            </p>
+        </fieldset> <br>
+
+        <fieldset>
+            <legend>Endereço</legend>
+            <p>
+                <label for="icep">CEP:</label> <input name="cep" id="icep" required pattern="\d{5}-\d{3}"/>
+            </p> 
+                <p><label for="irua">Rua:</label> <input type="text" name="rua" id="irua" size="40"> <br></p>
+                <p><label for="ibairro">Bairro:</label> <input type="text" name="bairro" id="ibairro"> <br></p>
+                <p><label for="icidade">Cidade:</label> <input type="text" name="cidade" id="icidade"> <br></p>
+                <p><label for="iestado">Estado:</label> 
+                    <select name="estado" id="iest">
+                        <option value="AC">AC</option>
+                        <option value="AL">AL</option>
+                        <option value="AP">AP</option>
+                        <option value="AM">AM</option>
+                        <option value="BA">BA</option>
+                        <option value="CE">CE</option>
+                        <option value="DF">DF</option>
+                        <option value="ES">ES</option>
+                        <option value="GO">GO</option>
+                        <option value="MA">MA</option>
+                        <option value="MT">MT</option>
+                        <option value="MS">MS</option>
+                        <option value="MG">MG</option>
+                        <option value="PA">PA</option>
+                        <option value="PB">PB</option>
+                        <option value="PR">PR</option>
+                        <option value="PE">PE</option>
+                        <option value="PI">PI</option>
+                        <option value="RJ">RJ</option>
+                        <option value="RN">RN</option>
+                        <option value="RS">RS</option>
+                        <option value="RO">RO</option>
+                        <option value="RR">RR</option>
+                        <option value="SC">SC</option>
+                        <option value="SP">SP</option>
+                        <option value="SE">SE</option>
+                        <option value="TO">TO</option>
+                    </select><br>
+                <p><label for="inumero">Número:</label> <input  size="1">
+                </p>   
+        </fieldset> <br>
+
+        <label for="imsg">Mensagem:</label> <br>
+        <textarea name="mensagem" id="imsg" cols="60" rows="20" placeholder= "Digite aqui sua mensagem..."></textarea>  <br>
+
+        <input type="reset" value="Limpar">
+        <input type="submit" value="Enviar">
+    </p>
+
+</form>
+    
+</body>
+</html>
